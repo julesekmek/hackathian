@@ -24,9 +24,8 @@ export function Hero() {
         <div className="absolute inset-0 opacity-[0.04] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
       </div>
 
-      <div className="container relative z-10 px-4 md:px-6 flex flex-col items-center text-center">
-
-
+      <div className="container relative z-10 px-4 md:px-6 flex flex-col items-center text-center scale-[0.8] origin-center py-12">
+        
         {/* Badge - Reverted placement */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
