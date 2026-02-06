@@ -6,7 +6,7 @@ export const content = {
       end: "",
     },
     subtitle:
-      "Un hackathon intensif pour Product Managers et Builders. Apprenez, expérimentez et créez des solutions IA concrètes sans coder pendant des mois.",
+      "Un hackathon intensif pour Product Managers et Builders. En collaboration avec Google Antigravity. Apprenez, expérimentez et créez des solutions IA concrètes sans coder pendant des mois.",
     cta: "Réserver ma place",
     secondaryCta: "En savoir plus",
   },
@@ -18,16 +18,60 @@ export const content = {
     title: "Pourquoi participer ?",
     list: [
       {
-        title: "Apprentissage Rapide",
-        description: "Maîtrisez les outils No-Code IA en quelques heures.",
+        title: "Compétence IA Activable",
+        description: "Formation webinaire complète pour maîtriser les outils IA.",
       },
       {
-        title: "Mentorat Expert",
-        description: "Accès direct à des PMs et Ingénieurs IA seniors.",
+        title: "MVP Prêt à Tester",
+        description: "Repartez avec un prototype fonctionnel et testable.",
       },
       {
         title: "Réseau Qualifié",
-        description: "Rencontrez d'autres passionnés ambitieux.",
+        description: "Rencontrez dev, designers et entrepreneurs ambitieux.",
+      },
+      {
+        title: "Expérience Valorisable",
+        description: "Un projet concret à ajouter à votre portfolio.",
+      },
+      {
+        title: "Prix & Récompenses",
+        description: "Des lots exceptionnels pour les équipes gagnantes.",
+      },
+    ],
+  },
+  requirements: {
+    title: "Session de préparation",
+    subtitle: "3 masterclass facultatives pour arriver prêt le jour J",
+    list: [
+      {
+        title: "Product Design",
+        description: "Créer des interfaces qui convertissent",
+        mentor: "Amélie",
+        role: "Head of Design",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop",
+        date: "10 Mars",
+        time: "18h00",
+        tag: "Design System"
+      },
+      {
+        title: "No-Code Architecture",
+        description: "Scaler sans écrire une ligne de code",
+        mentor: "Thomas",
+        role: "No-Code Expert",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        date: "12 Mars",
+        time: "18h30",
+        tag: "Backend & DB"
+      },
+      {
+        title: "Go-To-Market",
+        description: "Lancer son produit en 24h chrono",
+        mentor: "Sarah",
+        role: "Growth Lead",
+        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop",
+        date: "14 Mars",
+        time: "19h00",
+        tag: "Strategy"
       },
     ],
   },
@@ -41,13 +85,16 @@ export const content = {
       { time: "18:00", title: "Démos & Jury", description: "Présentez votre travail devant des investisseurs." },
     ],
   },
-  mentors: {
-    title: "Vos Mentors",
-    list: [
-      { name: "Sarah K.", role: "Product Lead @ AI Startup", image: "" },
-      { name: "Marc D.", role: "Ex-YCombinator Founder", image: "" },
-      { name: "Léa T.", role: "AI Engineer & Educator", image: "" },
-    ],
+  prizes: {
+    title: "Le Grand Prix",
+    subtitle: "Une récompense à la hauteur de votre talent",
+    mainPrize: {
+        title: "Incubation Complète",
+        value: "25 000€",
+        description: "Intégrez notre programme d'accélération pendant 6 mois avec bureaux, mentorat et financement initial.",
+        perks: ["Bureaux à Codyssée", "Mentorat illimité", "Accès VC Network", "Crédits Cloud GCP"],
+        image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=600&auto=format&fit=crop"
+    }
   },
   faq: {
     title: "Questions Fréquentes",

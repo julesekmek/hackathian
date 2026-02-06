@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="dark">
+    <html lang="fr" className="dark" suppressHydrationWarning>
       <body
         className={`${outfit.variable} ${inter.variable} font-sans antialiased bg-black text-white`}
       >
