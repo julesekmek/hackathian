@@ -123,17 +123,7 @@ export function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1, y: [0, 10, 0] }}
-        transition={{ delay: 1, duration: 2, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer z-20"
-        onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-      >
-        <span className="text-[10px] uppercase tracking-[0.2em] text-white/30">Scroll</span>
-        <div className="w-px h-12 bg-gradient-to-b from-white/0 via-white/20 to-white/0" />
-      </motion.div>
+
     </section>
   );
 }
